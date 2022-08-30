@@ -1,58 +1,60 @@
 #home {}
 
-        #bio {}
+#bio {}
 
-        #experience {}
+#experience {}
 
-        #contact {}
+#contact {}
 
-        body {
-            background-color: #565656;
-            color: white;
-            margin-top: 80px;
-            padding: 100px;
-            background-size: cover;
-            font-family: 'Bebas Neue', cursive;
-            justify-content: center;
-            align-items: center;
-        }
+#personal {}
 
-        header {
-            position: fixed;
-            left: 0;
-            right: 0;
-            top: 0px;
-            display: flex;
-            align-items: center;
+body {
+    background-color: #565656;
+    /* background-color:black; */
+    color: white;
+    margin-top: 80px;
+    padding: 100px;
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    justify-content: center;
+    align-items: center;
+}
 
-            /* BE SURE TO IMPLEMENT THIS LATER */
-            background-color: grey;
-        }
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    /* background-color:#4C4E52 */
+}
 
-        .nav {
-            text-decoration: none;
-            color: white;
-            text-align: center;
-        }
+.nav {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
 
-        .scrollable {
-            scroll-behavior: smooth;
-        }
+html {
+    scroll-behavior: smooth;
+  }
 
-        button,
-        button::after {
-            width: 200px;
-            height: 86px;
-            font-size: 36px;
-            font-family: 'Bebas Neue', cursive;
-            background: linear-gradient(45deg, transparent 5%, #aa6c39 5%);
-            border: 0;
-            color: #fff;
-            letter-spacing: 3px;
-            line-height: 88px;
-            box-shadow: 6px 0px 0px #00E6F6;
-            outline: transparent;
-            /* position: relative; */
-            cursor:pointer;
+button,
+button::after {
+    width: 200px;
+    height: 86px;
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+    background: linear-gradient(45deg, transparent 5%, #aa6c39 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 88px;
+    box-shadow: 6px 0px 0px #00E6F6;
+    outline: transparent;
+    /* position: relative; */
+    cursor: pointer;
 
-        }
+}
