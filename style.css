@@ -4,6 +4,8 @@
 
 #experience {}
 
+#projects {}
+
 #contact {}
 
 #philanthropy {}
@@ -41,7 +43,7 @@ header {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 button,
 button::after {
@@ -58,5 +60,4 @@ button::after {
     outline: transparent;
     /* position: relative; */
     cursor: pointer;
-
 }
